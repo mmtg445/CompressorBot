@@ -1,5 +1,5 @@
 from flask import Flask
-from . import *
+from decouple import config
 
 # Flask App Initialization
 app = Flask(__name__)
